@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(14, 38, 65);
+  padding: 25;
+}
+
+nav ul {
+  display: block;
+}
+
+nav li {
+  display: inline;
+  margin: 15px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+header {
+  background-color: #154d6f;
+  padding: 150px;
+}
+
+header p {
+  color: black;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.container-data {
+  padding: 25px;
+  background-color: #476a71;
+}
+
+.container-data p {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
